@@ -107,7 +107,7 @@ INPUT_EPUB=""
 OUTPUT_DIR=""
 MEDIA_FOLDER_NAME="assets"
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
-PYTHON_PROCESSOR_SCRIPT="${SCRIPT_DIR}/post_processor.py"
+PYTHON_PROCESSOR_SCRIPT="${SCRIPT_DIR}/../src/post_processor.py"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in

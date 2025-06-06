@@ -6,7 +6,7 @@ import sys
 SCRIPT_DIR_PYTHON = os.path.dirname(os.path.abspath(__file__))
 
 LUA_TABLE_FLATTENER_FILTER = os.path.join(
-    SCRIPT_DIR_PYTHON, "table_flattener.lua"
+    os.path.dirname(SCRIPT_DIR_PYTHON), "lua", "table_flattener.lua"
 )
 
 

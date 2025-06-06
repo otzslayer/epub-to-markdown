@@ -20,7 +20,7 @@ First of all, make sure the following dependencies are installed.
 After cloning this repository, run the below command in your directory.
 
 ```bash
-./epub-to-markdown.sh --split "^## " --remove-span-class "label,keep-together" book.epub ./out
+./scripts/epub-to-markdown.sh --split "^## " --remove-span-class "label,keep-together" book.epub ./out
 ```
 ### Arguments:
   - `<input_epub_file>`: Path to the input EPUB file.  
